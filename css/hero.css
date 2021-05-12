@@ -1,0 +1,35 @@
+.hero {
+  padding-block-start: 16px;
+}
+
+.hero h1 {
+  margin: 0;
+}
+
+.hero-img {
+  text-align: center;
+}
+
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hero-title {
+  font: var(--headline5);
+  display: block;
+}
+
+.hero-subtitle {
+  font: var(--headline3);
+  display: block;
+}
+
+.hero-feedback {
+  font: var(--body1);
+}
+
+.hero-social {
+  padding-block-end: 24px;
+}
