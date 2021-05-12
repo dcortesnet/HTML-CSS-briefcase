@@ -1,0 +1,15 @@
+.mention {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-block-start: 40px;
+  padding-block-end: 40px;
+}
+
+.mention-text {
+  font: var(--body1);
+}
+.mention-shared {
+  font: var(--headline5);
+}
