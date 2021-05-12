@@ -22,16 +22,5 @@
 
   --color-primary-purple: #310a90;
   --color-primary-green: #42e2b8;
-}
-
-body {
-  background: var(--gradient-background);
-  min-block-size: 100vh;
-  font: var(--button);
-  color: var(--color-primary-green);
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
+  --color-primary-white: white;
 }

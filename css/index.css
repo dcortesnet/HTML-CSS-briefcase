@@ -1,0 +1,8 @@
+@import "./base.css";
+@import "./button.css";
+@import "./header.css";
+
+body {
+  background: var(--gradient-background);
+  min-block-size: 100vh;
+}
