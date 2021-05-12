@@ -1,6 +1,7 @@
 @import "./base.css";
 @import "./button.css";
 @import "./header.css";
+@import "./button-icon.css";
 
 body {
   background: var(--gradient-background);
