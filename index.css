@@ -1,0 +1,18 @@
+:root {
+  --gradient-background: radial-gradient(
+      41.48% 11.48% at 2.38% 8.52%,
+      #747de9 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
+}
+
+body {
+  background: var(--gradient-background);
+  min-block-size: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
