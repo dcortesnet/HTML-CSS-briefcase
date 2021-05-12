@@ -2,9 +2,13 @@
 
 Portafolio personal realizado con HTML y CSS junto con buenas prácticas
 
-> HTML
+> HTML5
 
-> CSS
+> CSS3
+
+> Flexbox
+
+> Responsive design
 
 > Mobile First
 

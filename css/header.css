@@ -3,4 +3,38 @@
   justify-content: space-between;
   align-items: center;
   block-size: 80px;
+  /* Menú con seguimiento */
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+}
+
+/* Menú invisible */
+.menu {
+  display: none;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.menu ul a {
+  text-decoration: none;
+  color: var(--color-primary-white);
+  font: var(--button);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.menu ul a.is-active {
+  color: var(--color-primary-purple);
+}
+
+/* Menú visible */
+@media screen and (min-width: 768px) {
+  .menu {
+    display: block;
+  }
 }

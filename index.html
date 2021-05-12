@@ -10,30 +10,43 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-
-    <header class="header">
-        <img src="./img/logo.png" width="70" height="20" alt="logo">
-        <button class="button">Curriculum</button>
-    </header>
-
-    <section class="hero">
-        <div class="hero-img">
-            <img src="./img/user.png" width="328" height="330" alt="user">
-        </div>
-        <div class="hero-description">
-            <h1>
-                <span class="hero-title">¡Hola a todos!</span>
-                <span class="hero-subtitle">Soy Jaume</span>
-            </h1>
-            <p class="hero-feedback">Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
-            <div class="hero-social">
-                <a class="button-icon" href="tel:829192281"><img src="./icons/icon-phone.svg"></a>
-                <a class="button-icon" href="tel:829192281"><img src="./icons/icon-important_mail.svg"></a>
-                <a class="button-icon" href="tel:829192281"><img src="./icons/icon-instagram.svg"></a>
-                <a class="button-icon" href="tel:829192281"><img src="./icons/icon-twitter_squared.svg"></a>
+    <div class="wrapper">
+        <header class="header">
+            <img src="./img/logo.png" width="70" height="20" alt="logo">
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a class="is-active" href="#main">Hola</a>
+                    </li>
+                    <li>
+                        <a href="#project">Proyectos</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Hablemos</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="button">Curriculum</button>
+        </header>
+        <section class="hero" id="main">
+            <div class="hero-img">
+                <img src="./img/user.png" width="328" height="330" alt="user">
             </div>
-            <a href="http://google.com" class="button">Descargar currículum</a>
-        </div>
-    </section>
+            <div class="hero-description">
+                <h1>
+                    <span class="hero-title">¡Hola a todos!</span>
+                    <span class="hero-subtitle">Soy Jaume</span>
+                </h1>
+                <p class="hero-feedback">Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
+                <div class="hero-social">
+                    <a class="button-icon" href="tel:829192281"><img src="./icons/icon-phone.svg"></a>
+                    <a class="button-icon" href="tel:829192281"><img src="./icons/icon-important_mail.svg"></a>
+                    <a class="button-icon" href="tel:829192281"><img src="./icons/icon-instagram.svg"></a>
+                    <a class="button-icon" href="tel:829192281"><img src="./icons/icon-twitter_squared.svg"></a>
+                </div>
+                <a href="http://google.com" class="button">Descargar currículum</a>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
