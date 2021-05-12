@@ -1,15 +1,34 @@
 :root {
+  /* Variables estandarizadas de Figma */
   --gradient-background: radial-gradient(
       41.48% 11.48% at 2.38% 8.52%,
       #747de9 0%,
       rgba(255, 255, 255, 0) 100%
     ),
     linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
+
+  --baseFont: "Poppins", sans-serif;
+  --headline1: bold 95px / 153.71px var(--baseFont);
+  --headline2: bold 59px / 95px var(--baseFont);
+  --headline3: bold 48px / 77px var(--baseFont);
+  --headline4: bold 34px / 55px var(--baseFont);
+  --headline5: bold 24px / 38px var(--baseFont);
+
+  --body1: normal 16px / 25px var(--baseFont);
+  --body2: normal 14px / 22px var(--baseFont);
+
+  --button: bold 14px / 22px var(--baseFont);
+  --caption: normal 12px / 19px var(--baseFont);
+
+  --color-primary-purple: #310a90;
+  --color-primary-green: #42e2b8;
 }
 
 body {
   background: var(--gradient-background);
   min-block-size: 100vh;
+  font: var(--button);
+  color: var(--color-primary-green);
 }
 
 .header {
