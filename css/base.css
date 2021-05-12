@@ -9,6 +9,8 @@
     linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
 
   --baseFont: "Poppins", sans-serif;
+  --secondaryFont: "Oxygen", sans-serif;
+
   --headline1: bold 95px / 153.71px var(--baseFont);
   --headline2: bold 59px / 95px var(--baseFont);
   --headline3: bold 48px / 77px var(--baseFont);
@@ -20,6 +22,8 @@
 
   --button: bold 14px / 22px var(--baseFont);
   --caption: normal 12px / 19px var(--baseFont);
+
+  --secondaryCaption: bold 16px/25px var(--secondaryFont);
 
   --color-primary-purple: #310a90;
   --color-primary-green: #42e2b8;

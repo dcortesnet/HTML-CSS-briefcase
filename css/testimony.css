@@ -1,0 +1,17 @@
+.testimony {
+  padding: 24px;
+  text-align: center;
+
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(39.7657px);
+  border: 3, 98px solid;
+
+  border-radius: 24px;
+}
+
+.testimony-text {
+  font: var(--secondaryCaption);
+}
+.testimony-entry {
+  font: var(--caption);
+}
