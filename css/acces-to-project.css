@@ -1,0 +1,49 @@
+.access-to-project {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  gap: 40px;
+  padding-block-start: 40px;
+  padding-block-end: 40px;
+}
+
+.access-to-project-img {
+  width: 100%;
+}
+
+.access-to-project-description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.access-to-project-description p {
+  font: var(--body1);
+}
+
+.link-to-project {
+  background-color: var(--color-primary-purple);
+  align-self: flex-start; /* No tenga un strech */
+  color: var(--color-primary-white);
+  font: var(--headline5);
+  padding-block-start: 4px;
+  padding-block-end: 4px;
+  padding-inline-start: 8px;
+  padding-inline-end: 8px;
+  margin-inline-start: 4px;
+  box-shadow: -4px 4px 0 var(--color-primary-white);
+  text-decoration: none;
+}
+
+.access-to-project-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .access-to-project {
+    display: flex;
+    align-items: center;
+  }
+}

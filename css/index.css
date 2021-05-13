@@ -6,6 +6,7 @@
 @import "./hero.css";
 @import "./mention.css";
 @import "./testimony.css";
+@import "./acces-to-project.css";
 
 body {
   background: var(--gradient-background);

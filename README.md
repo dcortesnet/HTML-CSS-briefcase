@@ -12,3 +12,6 @@ Portafolio personal realizado con HTML y CSS junto con buenas prácticas
 
 > Mobile First
 
+# Levantar web
+
+* Solo es necesario abrir el fichero index.html en un navegador ( Preferencia chrome )
