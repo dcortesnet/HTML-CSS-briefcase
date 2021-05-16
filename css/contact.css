@@ -1,6 +1,28 @@
 .contact {
   padding-block-start: 40px;
   padding-block-end: 80px;
+  max-inline-size: 540px; /* Max que puede llegar */
+  margin: auto;
+}
+
+.contact-talk .talking {
+  background-color: var(--color-primary-purple);
+  align-self: flex-start; /* No tenga un strech */
+  color: var(--color-primary-white);
+  font: var(--headline5);
+  padding-block-start: 4px;
+  padding-block-end: 4px;
+  padding-inline-start: 8px;
+  padding-inline-end: 8px;
+  margin-inline-start: 4px;
+  box-shadow: -4px 4px 0 var(--color-primary-white);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.contact-talk p {
+  color: var(--color-primary-white);
+  font: var(--body1);
 }
 
 .contact-form {
@@ -23,4 +45,10 @@ textarea {
   padding-inline-end: 16px;
   border-radius: 8px;
   font: var(--body1);
+}
+
+@media screen and (min-width: 768px) {
+  .contact-talk {
+    text-align: center;
+  }
 }

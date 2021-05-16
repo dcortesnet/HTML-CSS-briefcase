@@ -12,6 +12,14 @@ Portafolio personal realizado con HTML y CSS junto con buenas prácticas
 
 > Mobile First
 
+Descripción del proyecto : Portafolio de figma a web, solamente HTML5 + CSS
+
+<img width="200" alt="cal-ios" src="./img/example.png">
+
 # Levantar web
 
 * Solo es necesario abrir el fichero index.html en un navegador ( Preferencia chrome )
+
+## Agradecimientos a :
+
+* https://leonidasesteban.com/
