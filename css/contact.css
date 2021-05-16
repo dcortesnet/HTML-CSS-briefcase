@@ -1,0 +1,26 @@
+.contact {
+  padding-block-start: 40px;
+  padding-block-end: 80px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-form label {
+  font: var(--body1);
+  font-weight: 700;
+}
+
+.contact-form input,
+textarea {
+  display: block;
+  padding-block-start: 12px;
+  padding-block-end: 12px;
+  padding-inline-start: 16px;
+  padding-inline-end: 16px;
+  border-radius: 8px;
+  font: var(--body1);
+}
