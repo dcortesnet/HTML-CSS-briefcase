@@ -7,6 +7,7 @@
 @import "./mention.css";
 @import "./testimony.css";
 @import "./acces-to-project.css";
+@import "./footer.css";
 
 body {
   background: var(--gradient-background);

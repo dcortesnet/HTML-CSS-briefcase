@@ -1,15 +1,17 @@
 .access-to-project {
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   gap: 40px;
   padding-block-start: 40px;
   padding-block-end: 40px;
 }
 
 .access-to-project-img {
+  display: block;
   width: 100%;
 }
+
+
 
 .access-to-project-description {
   display: flex;
@@ -43,7 +45,11 @@
 
 @media screen and (min-width: 768px) {
   .access-to-project {
-    display: flex;
+    flex-direction: row;
     align-items: center;
+  }
+
+  .access-to-project-buttons {
+    flex-direction: row;
   }
 }
