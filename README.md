@@ -19,7 +19,3 @@ Descripción del proyecto : Portafolio de figma a web, solamente HTML5 + CSS
 # Levantar web
 
 * Solo es necesario abrir el fichero index.html en un navegador ( Preferencia chrome )
-
-## Agradecimientos a :
-
-* https://leonidasesteban.com/
