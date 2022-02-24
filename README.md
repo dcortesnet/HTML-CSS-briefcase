@@ -10,7 +10,7 @@
 
 > Mobile First
 
-Portafolio personal realizado con HTML y CSS diseño elegido de template de Figma para la extracción de colores, textos, etc
+Portafolio personal realizado con HTML y CSS diseño elegido de template de Figma para la extracción de colores, textos, etc. URL Github pages: https://dcortesnet.github.io/HTML-CSS-briefcase/index.html
 
 # Levantar proyecto
 
